@@ -34,6 +34,7 @@ Before installation, please make sure you have already installed the following t
 3. Navigate to the project directory `cd good-first-issue-finder`
 4. Install dependencies with `npm install`
 5. Create a `.env` file in the root of the project. Then add your GitHub Oauth values (see example in `.env.example` file)
+> Add the below details in .env file FINDER_GITHUB_CLIENT_ID, FINDER_GITHUB_CLIENT_SECRET.
 
 > **Note:** You need to set up an Oauth App in Github to get the required values. See the documentation [here](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app).  
 > The Callback Url needs to point to the endpoint `http://localhost:5173/api/authentication/callback` of the baseURL the app should run on.
